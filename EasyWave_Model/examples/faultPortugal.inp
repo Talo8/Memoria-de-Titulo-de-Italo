@@ -1,0 +1,15 @@
+; MPF
+;-mw 8.1 -location -9.890 36.574 4 -refpos MT -size 129 70 -strike 20 -dip 35 -rake 90 -rigidity 3e10
+
+; GBF
+;-mw 8.1 -location -11.332 36.665 5 -refpos MT -size 127 60 -strike 53 -dip 35 -rake 90 -rigidity 3e10
+
+; HSF
+;-mw 8.3 -location -9.913 35.796 4 -refpos MT -size 165 70 -strike 42 -dip 35 -rake 90 -rigidity 3e10
+
+; PBF
+;-mw 8.0 -location -8.585 36.314 2.5 -refpos MT -size 105 55 -strike 266 -dip 24 -rake 90 -rigidity 3e10
+
+; CWF
+-mw 8.6 -location -8.059 35.407 20 -refpos MT -size 168 200 -strike 349 -dip 5 -rake 90 -rigidity 3e10
+
