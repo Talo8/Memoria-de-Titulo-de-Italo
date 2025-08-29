@@ -1,0 +1,39 @@
+ =============  Starting new log at Fri Aug 29 01:26:52 2025
+Command line:  -grid /home/talosuazo8/Memoria-de-Titulo-de-Italo/Datos/EasyWave/GrdASCII/salida_ascii3.grd -source /home/talosuazo8/Memoria-de-Titulo-de-Italo/Datos/EasyWave/ParametersFLT/data_parameters_3.flt -time 120
+Loading bathymetry from /home/talosuazo8/Memoria-de-Titulo-de-Italo/Datos/EasyWave/GrdASCII/salida_ascii3.grd
+Stable CFL time step: 2.40308 sec
+Read source from /home/talosuazo8/Memoria-de-Titulo-de-Italo/Datos/EasyWave/ParametersFLT/data_parameters_3.flt
+
+Model parameters for this simulation:
+timestep: 2 sec
+max time: 120 min
+poi_dt_out: 30 sec
+poi_report: no
+poi_search_dist: 10 km
+poi_min_depth: 1 m
+poi_max_depth: 10000 m
+coriolis: no
+min_depth: 10 m
+ssh0_rel: 0.01
+ssh0_abs: 0 m
+ssh_arrival: 0.001 m
+ssh_clip: 0.0001 m
+ssh_zero: 1e-05 m
+ssh_transparency: 0 m
+
+Starting main loop...
+Model time = 00:00:00,   elapsed: 3969 msec
+Model time = 00:10:00,   elapsed: 4169 msec
+Model time = 00:20:00,   elapsed: 4722 msec
+Model time = 00:30:00,   elapsed: 6069 msec
+Model time = 00:40:00,   elapsed: 8306 msec
+Model time = 00:50:00,   elapsed: 11084 msec
+Model time = 01:00:00,   elapsed: 14408 msec
+Model time = 01:10:00,   elapsed: 18260 msec
+Model time = 01:20:00,   elapsed: 22664 msec
+Model time = 01:30:00,   elapsed: 27801 msec
+Model time = 01:40:00,   elapsed: 33702 msec
+Model time = 01:50:00,   elapsed: 40296 msec
+Model time = 02:00:00,   elapsed: 47372 msec
+Finishing main loop
+Final dump...
