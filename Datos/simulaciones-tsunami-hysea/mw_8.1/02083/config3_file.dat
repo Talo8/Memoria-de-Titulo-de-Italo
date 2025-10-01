@@ -1,0 +1,50 @@
+valp           # Bathymetry name
+/gpfs/projects/bsc21/bsc21516_work/zamora/datanz/bathymetry/chile/sven/L0c3_nc4.grd      # Bathymetry file for level 0
+2                   # Initialization type (0: Sea surface displ-from file, 1: St-OK, 2: St-OK from file, 3: Triang-OK, 4: Triang-OK from file, 5: Sea floor deform-from file, 6: Gaussian))
+1                    # Apply Kajiura filter to the Okada deformation (0: no, 1: yes)
+4000
+#1                    # Number of faults
+faults.dat       # Time Lon-epicenter Lat-epicenter Depth-hypocenter Fault-length(km) Fault-width(km) Strike Dip Rake Slip(m)
+0                    # Use Okada computation window, se comenta si se usa opcion 5.
+level01           # NetCDF file prefix for level 0
+0 1 0 0 0 0 0 0 0       # Variables saved (eta, maximum eta, velocities, modulus of velocity, momentum flux, maximum momentum flux, arrival times) (1: save, 0: do not save)
+4                    # Number of levels
+2                    # Refinement ratio of level 1
+1                    # Number of submeshes for level 1
+/gpfs/projects/bsc21/bsc21516_work/zamora/datanz/bathymetry/chile/sven/L2c3_nc4.grd     # Bathymetry file for 1st submesh of level 1
+level02          # NetCDF file prefix for 1st submesh of level 1
+0 1 0 0 0 0 0 0 0       # Variables saved
+8                    # Refinement ratio of level 2
+2                    # Number of submeshes for level 2
+/gpfs/projects/bsc21/bsc21516_work/zamora/datanz/bathymetry/chile/sven/L3c3sere_nc4.grd    # Bathymetry file for 1st submesh of level 2
+level03coq        # NetCDF file prefix for 1st submesh of level 2
+0 1 0 0 0 0 0 0 0        # Variables saved
+/gpfs/projects/bsc21/bsc21516_work/zamora/datanz/bathymetry/chile/sven/L3c3quint_nc4.grd    # Bathymetry file for 1st submesh of level 2
+level03valp        # NetCDF file prefix for 1st submesh of level 2
+0 1 0 0 0 0 0 0 0        # Variables saved
+8                    # Refinement ratio of level 3
+2                    # Number of submeshes for level 3
+/gpfs/projects/bsc21/bsc21516_work/zamora/datanz/bathymetry/chile/sven/L4c3coq_nc4.grd  # Bathymetry file for 1st submesh of level 3
+level04coq      # NetCDF file prefix for 1st submesh of level 3
+0 1 0 0 0 1 0 0 1       # Variables saved
+/gpfs/projects/bsc21/bsc21516_work/zamora/datanz/bathymetry/chile/sven/L4c3valp_nc4.grd  # Bathymetry file for 1st submesh of level 3
+level04valp      # NetCDF file prefix for 1st submesh of level 3
+0 1 0 0 0 1 0 0 1        # Variables saved
+1                    # Upper border condition (1: open, -1: wall)
+1                    # Lower border condition
+1                    # Left border condition
+1                    # Right border condition
+21605.0               # Simulation time (sec)
+300                # Saving time of NetCDF files (sec) (-1: do not save)
+1                    # Read points from file (0: no, 1: yes). Used for time series
+/gpfs/projects/bsc21/bsc21516_work/zamora/datanz/timeseries/chile/ts_loc1093_360.dat
+10                   #sampling time (seconds)
+0.5                  # CFL
+5e-3                 # Epsilon h (m)
+40                  # Threshold for the 2s+WAF scheme (m)
+0.2 0.2 0.2 0.2            # Stability coefficient
+0                                 #  Manning uniforme o variable en cada grilla (0: uniforme, 1: variable)
+0.025                          # Water-bottom friction (Manning coefficient)
+100                  # Maximum allowed velocity of water
+100000               # L (typical length)
+1000                 # H (typical height)
