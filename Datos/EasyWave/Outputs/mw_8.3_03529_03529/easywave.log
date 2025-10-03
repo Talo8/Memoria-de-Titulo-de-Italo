@@ -1,4 +1,7 @@
- =============  Starting new log at Wed Oct  1 19:43:32 2025
+ =============  Starting new log at Fri Oct  3 02:13:20 2025
+Command line:  -grid /home/talosuazo8/Memoria-de-Titulo-de-Italo/Datos/EasyWave/GrdASCII/grilla_ascii.grd -source /home/talosuazo8/Memoria-de-Titulo-de-Italo/Datos/simulaciones-tsunami-hysea/mw_8.3/03529/03529.flt -time 120 -gpu
+Loading bathymetry from /home/talosuazo8/Memoria-de-Titulo-de-Italo/Datos/EasyWave/GrdASCII/grilla_ascii.grd
+ =============  Starting new log at Fri Oct  3 02:21:37 2025
 Command line:  -grid /home/talosuazo8/Memoria-de-Titulo-de-Italo/Datos/EasyWave/GrdASCII/grilla_ascii.grd -source /home/talosuazo8/Memoria-de-Titulo-de-Italo/Datos/simulaciones-tsunami-hysea/mw_8.3/03529/03529.flt -time 120
 Loading bathymetry from /home/talosuazo8/Memoria-de-Titulo-de-Italo/Datos/EasyWave/GrdASCII/grilla_ascii.grd
 Stable CFL time step: 2.40308 sec
@@ -22,139 +25,18 @@ ssh_zero: 1e-05 m
 ssh_transparency: 0 m
 
 Starting main loop...
-Model time = 00:00:00,   elapsed: 229122 msec
-Model time = 00:10:00,   elapsed: 229572 msec
-Model time = 00:20:00,   elapsed: 230623 msec
-Model time = 00:30:00,   elapsed: 232575 msec
-Model time = 00:40:00,   elapsed: 235688 msec
-Model time = 00:50:00,   elapsed: 239853 msec
-Model time = 01:00:00,   elapsed: 244756 msec
-Model time = 01:10:00,   elapsed: 250329 msec
-Model time = 01:20:00,   elapsed: 256430 msec
-Model time = 01:30:00,   elapsed: 263372 msec
-Model time = 01:40:00,   elapsed: 271084 msec
-Model time = 01:50:00,   elapsed: 279546 msec
-Model time = 02:00:00,   elapsed: 288693 msec
-Finishing main loop
-Final dump...
- =============  Starting new log at Wed Oct  1 19:55:44 2025
-Command line:  -grid /home/talosuazo8/Memoria-de-Titulo-de-Italo/Datos/EasyWave/GrdASCII/grilla_ascii.grd -source /home/talosuazo8/Memoria-de-Titulo-de-Italo/Datos/simulaciones-tsunami-hysea/mw_8.3/03529/03529.flt -time 120
-Loading bathymetry from /home/talosuazo8/Memoria-de-Titulo-de-Italo/Datos/EasyWave/GrdASCII/grilla_ascii.grd
-Stable CFL time step: 2.40308 sec
-Read source from /home/talosuazo8/Memoria-de-Titulo-de-Italo/Datos/simulaciones-tsunami-hysea/mw_8.3/03529/03529.flt
-
-Model parameters for this simulation:
-timestep: 2 sec
-max time: 120 min
-poi_dt_out: 30 sec
-poi_report: no
-poi_search_dist: 10 km
-poi_min_depth: 1 m
-poi_max_depth: 10000 m
-coriolis: no
-min_depth: 10 m
-ssh0_rel: 0.01
-ssh0_abs: 0 m
-ssh_arrival: 0.001 m
-ssh_clip: 0.0001 m
-ssh_zero: 1e-05 m
-ssh_transparency: 0 m
-
-Starting main loop...
-Model time = 00:00:00,   elapsed: 227144 msec
-Model time = 00:10:00,   elapsed: 227623 msec
-Model time = 00:20:00,   elapsed: 228575 msec
-Model time = 00:30:00,   elapsed: 230405 msec
-Model time = 00:40:00,   elapsed: 233461 msec
-Model time = 00:50:00,   elapsed: 237456 msec
-Model time = 01:00:00,   elapsed: 242114 msec
-Model time = 01:10:00,   elapsed: 247549 msec
-Model time = 01:20:00,   elapsed: 253665 msec
-Model time = 01:30:00,   elapsed: 261119 msec
-Model time = 01:40:00,   elapsed: 268577 msec
-Model time = 01:50:00,   elapsed: 276720 msec
-Model time = 02:00:00,   elapsed: 285648 msec
-Finishing main loop
-Final dump...
- =============  Starting new log at Wed Oct  1 20:03:55 2025
-Command line:  -grid /home/talosuazo8/Memoria-de-Titulo-de-Italo/Datos/EasyWave/GrdASCII/grilla_ascii.grd -source /home/talosuazo8/Memoria-de-Titulo-de-Italo/Datos/simulaciones-tsunami-hysea/mw_8.3/03529/03529.flt -time 120
-Loading bathymetry from /home/talosuazo8/Memoria-de-Titulo-de-Italo/Datos/EasyWave/GrdASCII/grilla_ascii.grd
-Stable CFL time step: 2.40308 sec
- =============  Starting new log at Wed Oct  1 20:20:50 2025
-Command line:  -grid /home/talosuazo8/Memoria-de-Titulo-de-Italo/Datos/EasyWave/GrdASCII/grilla_ascii.grd -source /home/talosuazo8/Memoria-de-Titulo-de-Italo/Datos/simulaciones-tsunami-hysea/mw_8.3/03529/03529.flt -time 120
-Loading bathymetry from /home/talosuazo8/Memoria-de-Titulo-de-Italo/Datos/EasyWave/GrdASCII/grilla_ascii.grd
-Stable CFL time step: 2.40308 sec
-Read source from /home/talosuazo8/Memoria-de-Titulo-de-Italo/Datos/simulaciones-tsunami-hysea/mw_8.3/03529/03529.flt
-
-Model parameters for this simulation:
-timestep: 2 sec
-max time: 120 min
-poi_dt_out: 30 sec
-poi_report: no
-poi_search_dist: 10 km
-poi_min_depth: 1 m
-poi_max_depth: 10000 m
-coriolis: no
-min_depth: 10 m
-ssh0_rel: 0.01
-ssh0_abs: 0 m
-ssh_arrival: 0.001 m
-ssh_clip: 0.0001 m
-ssh_zero: 1e-05 m
-ssh_transparency: 0 m
-
-Starting main loop...
-Model time = 00:00:00,   elapsed: 229298 msec
-Model time = 00:10:00,   elapsed: 229764 msec
-Model time = 00:20:00,   elapsed: 230839 msec
-Model time = 00:30:00,   elapsed: 232850 msec
-Model time = 00:40:00,   elapsed: 236010 msec
-Model time = 00:50:00,   elapsed: 240123 msec
-Model time = 01:00:00,   elapsed: 244886 msec
-Model time = 01:10:00,   elapsed: 250392 msec
-Model time = 01:20:00,   elapsed: 256520 msec
-Model time = 01:30:00,   elapsed: 263512 msec
-Model time = 01:40:00,   elapsed: 271303 msec
-Model time = 01:50:00,   elapsed: 279859 msec
-Model time = 02:00:00,   elapsed: 289072 msec
-Finishing main loop
-Final dump...
- =============  Starting new log at Wed Oct  1 20:43:30 2025
-Command line:  -grid /home/talosuazo8/Memoria-de-Titulo-de-Italo/Datos/EasyWave/GrdASCII/grilla_ascii.grd -source /home/talosuazo8/Memoria-de-Titulo-de-Italo/Datos/simulaciones-tsunami-hysea/mw_8.3/03529/03529.flt -time 120-gpu
-Loading bathymetry from /home/talosuazo8/Memoria-de-Titulo-de-Italo/Datos/EasyWave/GrdASCII/grilla_ascii.grd
-Stable CFL time step: 2.40308 sec
-Read source from /home/talosuazo8/Memoria-de-Titulo-de-Italo/Datos/simulaciones-tsunami-hysea/mw_8.3/03529/03529.flt
-
-Model parameters for this simulation:
-timestep: 2 sec
-max time: 120 min
-poi_dt_out: 30 sec
-poi_report: no
-poi_search_dist: 10 km
-poi_min_depth: 1 m
-poi_max_depth: 10000 m
-coriolis: no
-min_depth: 10 m
-ssh0_rel: 0.01
-ssh0_abs: 0 m
-ssh_arrival: 0.001 m
-ssh_clip: 0.0001 m
-ssh_zero: 1e-05 m
-ssh_transparency: 0 m
-
-Starting main loop...
-Model time = 00:00:00,   elapsed: 230173 msec
-Model time = 00:10:00,   elapsed: 230643 msec
-Model time = 00:20:00,   elapsed: 231742 msec
-Model time = 00:30:00,   elapsed: 233785 msec
-Model time = 00:40:00,   elapsed: 237386 msec
-Model time = 00:50:00,   elapsed: 241617 msec
-Model time = 01:00:00,   elapsed: 246484 msec
-Model time = 01:10:00,   elapsed: 252389 msec
-Model time = 01:20:00,   elapsed: 258762 msec
-Model time = 01:30:00,   elapsed: 265958 msec
-Model time = 01:40:00,   elapsed: 274108 msec
-Model time = 01:50:00,   elapsed: 282938 msec
-Model time = 02:00:00,   elapsed: 292406 msec
+Model time = 00:00:00,   elapsed: 225688 msec
+Model time = 00:10:00,   elapsed: 226127 msec
+Model time = 00:20:00,   elapsed: 227099 msec
+Model time = 00:30:00,   elapsed: 228954 msec
+Model time = 00:40:00,   elapsed: 231880 msec
+Model time = 00:50:00,   elapsed: 235793 msec
+Model time = 01:00:00,   elapsed: 240277 msec
+Model time = 01:10:00,   elapsed: 245425 msec
+Model time = 01:20:00,   elapsed: 251217 msec
+Model time = 01:30:00,   elapsed: 257707 msec
+Model time = 01:40:00,   elapsed: 264958 msec
+Model time = 01:50:00,   elapsed: 272937 msec
+Model time = 02:00:00,   elapsed: 281725 msec
 Finishing main loop
 Final dump...
