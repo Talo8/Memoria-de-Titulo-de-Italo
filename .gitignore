@@ -4,3 +4,6 @@
 /titulo
 Pruebas.ipynb
 Datos/EasyWave/GrdASCII/*.grd
+Datos/HySEA/GrdNetCDF/grilla_NetCDF.grd
+compare_results.ipynb
+/Codigos
